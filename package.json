@@ -8,17 +8,22 @@
     "start": "parcel",
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://Abhijit788.github.io/assign'",
+  "homepage": "http://Abhijit788.github.io/assign",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "build-gh": "parcel build --public-url 'http://Abhijit788.github.io/assign'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/Abhijit788/assign.git"
   },
   "author": "Microsoft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/Abhijit788/assign/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
